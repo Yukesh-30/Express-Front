@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE_URL = 'unga url potukonga guys!!!!';
+
+//INGA UNGA URL POTUKONGA GUYS!!!!
+const API_BASE_URL = 'http://localhost:3000/api/v1';
 
 function App() {
   const [tasks, setTasks] = useState([]);
